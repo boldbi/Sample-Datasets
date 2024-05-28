@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "Qy2fNaQs6muCeANy5OnXjPJRa/XQtPa1MSPWXKTsftE=",
+  "Source": "BoldBI.Embed.Sample",
+  "BasePath": "_content/BoldBI.Embed.Sample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BoldBI.Embed.Sample\\wwwroot",
+      "Source": "BoldBI.Embed.Sample",
+      "ContentRoot": "C:\\Users\\HariniRamesh\\Trial folder\\aspnet-core-sample-master\\BoldBI.Embed.Sample\\wwwroot\\",
+      "BasePath": "_content/BoldBI.Embed.Sample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HariniRamesh\\Trial folder\\aspnet-core-sample-master\\BoldBI.Embed.Sample\\wwwroot\\css\\Site.css",
+      "SourceId": "BoldBI.Embed.Sample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HariniRamesh\\Trial folder\\aspnet-core-sample-master\\BoldBI.Embed.Sample\\wwwroot\\",
+      "BasePath": "_content/BoldBI.Embed.Sample",
+      "RelativePath": "css/Site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Site.css"
+    },
+    {
+      "Identity": "C:\\Users\\HariniRamesh\\Trial folder\\aspnet-core-sample-master\\BoldBI.Embed.Sample\\wwwroot\\favicon.ico",
+      "SourceId": "BoldBI.Embed.Sample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HariniRamesh\\Trial folder\\aspnet-core-sample-master\\BoldBI.Embed.Sample\\wwwroot\\",
+      "BasePath": "_content/BoldBI.Embed.Sample",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\HariniRamesh\\Trial folder\\aspnet-core-sample-master\\BoldBI.Embed.Sample\\wwwroot\\js\\Index.js",
+      "SourceId": "BoldBI.Embed.Sample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HariniRamesh\\Trial folder\\aspnet-core-sample-master\\BoldBI.Embed.Sample\\wwwroot\\",
+      "BasePath": "_content/BoldBI.Embed.Sample",
+      "RelativePath": "js/Index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Index.js"
+    }
+  ]
+}
