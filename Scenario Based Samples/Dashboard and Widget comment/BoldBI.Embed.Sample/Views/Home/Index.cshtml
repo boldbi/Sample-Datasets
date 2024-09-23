@@ -1,0 +1,45 @@
+﻿
+@using BoldBI.Embed.Sample.Models
+@{
+    ViewBag.Title = "Home";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/comment.css" rel="stylesheet" />
+    <link href="~/css/easymde.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.boldbi.com/embedded-sdk/latest/boldbi-embed.js"></script>
+    <script src="~/js/comment.js"></script>
+    <script src="~/js/easymde.min.js"></script>
+    <script type="text/javascript" src="~/js/Index.js"></script>
+
+    <script type="text/javascript">
+        var rootUrl = "@EmbedProperties.RootUrl";
+        var siteIdentifier = "@EmbedProperties.SiteIdentifier";
+        var environment = "@EmbedProperties.Environment";
+        var dashboardId = "@EmbedProperties.dashboardId";
+        var authorizationServerUrl = "@Url.Action("GetDetails", "Home")";
+        var getDashboardsUrl = "@Url.Action("GetDashboards", "Home")";
+    </script>
+</head>
+
+<body onload="Init()">
+   @* <div id="container">
+            <div class="header-section">
+                <div id="grid-title">All Dashboard</div>
+            </div>
+            <div id="panel">
+
+            </div>
+    </div>*@
+    <div id="viewer-section">
+        <div id="dashboard"></div>
+    </div>
+</body>
+
+</html>
